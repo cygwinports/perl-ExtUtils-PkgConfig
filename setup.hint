@@ -1,0 +1,6 @@
+category: Perl Devel
+requires: perl pkgconfig
+sdesc: "Perl module for using pkg-config"
+ldesc: "The pkg-config program retrieves information about installed 
+libraries, usually for the purposes of compiling against and linking to 
+them."
