@@ -22,31 +22,31 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-ExtUtils-PkgConfig-1.10-X-src.tar.bz2
+  unpack perl-ExtUtils-PkgConfig-1.11-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-ExtUtils-PkgConfig-1.10-X.cygport all
+  cygport ./perl-ExtUtils-PkgConfig-1.11-X.cygport all
 
 This will create:
-  /usr/src/perl-ExtUtils-PkgConfig-1.10-X-src.tar.bz2
-  /usr/src/perl-ExtUtils-PkgConfig-1.10-X.tar.bz2
+  /usr/src/perl-ExtUtils-PkgConfig-1.11-X-src.tar.bz2
+  /usr/src/perl-ExtUtils-PkgConfig-1.11-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/lib/perl5/vendor_perl/5.10/ExtUtils/PkgConfig.pm
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/ExtUtils/PkgConfig/.packlist
-  /usr/share/doc/perl-ExtUtils-PkgConfig-1.10/Changes
-  /usr/share/doc/perl-ExtUtils-PkgConfig-1.10/README
+  /usr/lib/perl5/vendor_perl/5.11/ExtUtils/PkgConfig.pm
+  /usr/lib/perl5/vendor_perl/5.11/i686-cygwin/auto/ExtUtils/PkgConfig/.packlist
+  /usr/share/doc/perl-ExtUtils-PkgConfig-1.11/Changes
+  /usr/share/doc/perl-ExtUtils-PkgConfig-1.11/README
   /usr/share/man/man3/ExtUtils.PkgConfig.3pm.gz
 
 ------------------
 
 Port Notes:
 
------ version 1.10-1 -----
+----- version 1.11-1 -----
 Version bump, built for perl-5.10.
 
 ----- version 1.07-1 -----
@@ -64,5 +64,5 @@ New upstream release; see Changes file for details.
 Initial release for Cygwin.
 
 
-Cygwin port maintained by: Yaakov Selkowitz
-http://sourceforge.net/projects/cygwin-ports/
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
