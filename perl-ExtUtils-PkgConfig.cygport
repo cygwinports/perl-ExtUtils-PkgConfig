@@ -1,10 +1,12 @@
 inherit gtk2-perl
 
 NAME="perl-ExtUtils-PkgConfig"
-VERSION=1.14
+VERSION=1.15
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl module for using pkg-config"
 DESCRIPTION="The pkg-config program retrieves information about installed
 libraries, usually for the purposes of compiling against and linking to them."
 REQUIRES="pkg-config"
+
+ARCH=noarch
